@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=Caveat:wght@500&family=Covered+By+Your+Grace&family=Dancing+Script:wght@400;500&family=Homemade+Apple&family=League+Spartan:wght@400;500;600;700;800&family=Montserrat:wght@300&family=Pacifico&family=Permanent+Marker&family=Signika:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>PKWU XI PPLG1</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="home">
+            <div id="navbar">
+                <div class="navlogo">
+                    <div class="logo_text">Tugas PKWU Analisa SWOT</div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Menu =</button>
+                    <div class="navitems dropdown-content " id="myDropdown">
+                        <div><a href="#home" class="navlink">Kelompok</a></div>
+                        <div><a href="#skill" class="navlink">Video</a></div>
+                        <div><a href="#projects" class="navlink">Analisa SWOT</a></div>
+                        <div><a href="#contact" class="navlink">Penutup</a></div>
+                    </div>
+                </div>
+
+                <script>
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                    window.onclick = function (event) {
+                        if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                            }
+                        }
+                    }
+                </script>
+
+            </div>
+            <div id="about">
+                <div class="left-about">
+                    <div class="about-heading">Tugas PKWU Analisa SWOT</div>
+                    <div class=" about-heading about-subheading"><h1 style="color: fuchsia;"><b>XI PPLG 1</b></h1></div>
+                    <div class="about-description">
+                        Tugas PKWU Amalisa SWOT<br>
+                        Menganalisa Pelaku usaha yang berada di Kecamatan Slogohimo
+
+                    </div>
+
+                    <button class="btn"><i style="font-size: 17px;">Tugasss</i></button>
+
+                </div>
+                <div class="right-about">
+                    <div class="myprofileimage">
+                        <img style="width: 400px;" src="./images/kelompok.jpg" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="wave-shape-home">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <div id="projects">
+            <h2 class="header-project">Projects</h2>
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-no">1</div>
+                    <div class="project-content">
+                        <div class="project-skills">
+                            <img src="./images/htmlimg.png" alt="">
+                            <img src="./images/cssimg.png" alt="" class="cssimg">
+                            <img src="./images/javascripimg.png" alt="" class="jsimg">
+                            <img src="./images/bootstrapimg.png" alt="">
+                        </div>
+                        <h2 class="project-heading project1">Tindog</h2>
+                        <div class="project-subheading project1">Tindog: Where Canine Love Meets Human Connection. Swipe
+                            your way to meaningful
+                            connections with fellow dog enthusiasts, creating bonds based on endships, all with a
+                            wagging tail by your side.
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn">Read More</button>
+                            <a href="https://github.com/Priyanshu52002"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://priyanshu52002.github.io/priyanshunewebsite/"><i
+                                    class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-no">2</div>
+                    <div class="project-content">
+                        <div class="project-skills">
+                            <img src="./images/htmlimg.png" alt="">
+                            <img src="./images/cssimg.png" alt="" class="cssimg">
+                            <img src="./images/javascripimg.png" alt="" class="jsimg">
+                            <img src="./images/bootstrapimg.png" alt="">
+                        </div>
+                        <h2 class="project-heading project2">Indian Zayka</h2>
+                        <div class="project-subheading project2">"Indian Zayka: A web project that captures the essence
+                            of India's culinary tapestry, offering a curated collection of
+                            authentic recipes and cultural insights, all celebrating the rich flavors of Indian
+                            cuisine." </div>
+                        <div class="btn-group">
+                            <button class="btn">Read More</button>
+                            <a href="https://github.com/Priyanshu52002"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://priyanshu52002.github.io/priyanshunewebsite/"><i
+                                    class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <div class="project-no">3</div>
+                    <div class="project-content">
+                        <div class="project-skills">
+                            <img src="./images/htmlimg.png" alt="">
+                            <img src="./images/cssimg.png" alt="" class="cssimg">
+                            <img src="./images/bootstrapimg.png" alt="" class="jsimg">
+                        </div>
+                        <h2 class="project-heading project3">Black-Jack Game</h2>
+                        <div class="project-subheading project3">"Black Jack Game: Embrace the thrill of this timeless
+                            card classic through our web project. Test your luck,
+                            strategy, and nerve as you aim to outplay the dealer and hit that winning hand of 21."
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn">Read More</button>
+                            <a href="https://github.com/Priyanshu52002"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://priyanshu52002.github.io/firstjavascriptproject/"><i
+                                    class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-skills-separator">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+
+        </div>
+        <div id="skill">
+            <h2 class="skillheading">Skills</h2>
+            <div class="skill-card">
+                <div class="skill-text">
+                    "I bring a versatile skill set to the table, combining proficiency in HTML, CSS, and JavaScript to
+                    craft engaging and interactive web experiences. My expertise extends to ReactJS, allowing me to
+                    create dynamic user interfaces that enhance user engagement. With a strong foundation in data
+                    structures and algorithms, I possess the problem-solving acumen to tackle complex challenges
+                    efficiently. In addition to my technical prowess, I am well-versed in C, C++, and Java, enabling me
+                    to develop robust and scalable applications. My proficiency in MySQL empowers me to design and
+                    manage efficient databases. As a natural team player with exceptional leadership qualities, I am
+                    adept at fostering collaborative environments and driving projects to success."
+                    <div id="resume">
+                        <h2>Resume</h2>
+                        <p>Download my resume <a
+                                href="./images/CV Priyanshu Mishra 05814802721 CSE MAIT 8826211305..pdf" target="_blank"
+                                rel="noopener noreferrer">Click here</a>.</p>
+                    </div>
+                </div>
+                <div class="skill-images">
+                    <img src="./images/htmlimg.png" alt="">
+                    <img src="./images/cssimg.png" alt="">
+                    <img src="./images/javascripimg.png" alt="">
+                    <img src="./images/bootstrapimg.png" alt="">
+                    <img src="./images/reactimg.png" alt="">
+                    <img src="./images/cimg.png" alt="">
+                    <img src="./images/c++img.png" alt="">
+                    <img src="./images/javaimg.png" alt="">
+                    <img src="./images/mysqlimg.png" alt="">
+
+                </div>
+            </div>
+
+            <div class="custom-shape-divider-bottom-1692534094">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="contact-container">
+                <h1 class="contact-heading">Contact Me</h1>
+                <h3 class="contact-subheading">
+                    Questions,Thoughts or just want to say Hello?
+                </h3>
+                <div class="contactus-form">
+                    <form class="form" action="">
+                        <div class="form-field-container">
+                            <input type="text" class="form-field" name="name" placeholder="Enter Your Name">
+                            <input type="email" class="form-field" name="email" placeholder="Enter Your Email">
+                            <input type="text" class="form-field" name="subject" placeholder="Enter Your Subject">
+                            <textarea name="textarea" id="" cols="30" rows="10" class="form-field form-textarea"
+                                placeholder="Enter your Message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn submit-btn">Send Message<i
+                                    class="fa-regular fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="index.html"><img src="./images/logoimg2.png" alt="" class="footerlogo"></a>
+            <p class="copyright">&copy; 2023 Priyanshu Mishra. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/priyanshu-mishra-a1411022b/"><i
+                        class="footer-link fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Priyanshu52002"><i class="footer-link fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/priyanshumishra0518/"><i
+                        class="footer-link fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100048660678931"><i
+                        class="footer-link fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/bd05d911bb.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Front-End-Developer",
+                "UI-UX Designer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+
+</html>
