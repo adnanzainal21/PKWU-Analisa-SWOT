@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=Caveat:wght@500&family=Covered+By+Your+Grace&family=Dancing+Script:wght@400;500&family=Homemade+Apple&family=League+Spartan:wght@400;500;600;700;800&family=Montserrat:wght@300&family=Pacifico&family=Permanent+Marker&family=Signika:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>PKWU XI PPLG1</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="home">
+            <div id="navbar">
+                <div class="navlogo">
+                    <div class="judul-sub">Tugas PKWU Analisa SWOT</div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Menu =</button>
+                    <div class="navitems dropdown-content " id="myDropdown">
+                        <div><a href="#home" class="navlink">Kelompok</a></div>
+                        <div><a href="#skill" class="navlink">Video</a></div>
+                        <div><a href="#projects" class="navlink">Analisa SWOT</a></div>
+                        <div><a href="#contact" class="navlink">Penutup</a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="about">
+                <div class="left-about">
+                    <div class="about-heading">Tugas PKWU Analisa SWOT</div>
+                    <div class=" about-heading about-subheading">
+                        <h1class="kelas"><b>XI PPLG 1</b></h1class=>
+                    </div>
+                    <div class="about-description">
+                        Tugas PKWU Amalisa SWOT<br>
+                        Menganalisa Pelaku usaha yang berada di Kecamatan Slogohimo
+
+                    </div>
+
+                    <button class="btn"><i style="font-size: 17px;">Tugasss</i></button>
+
+                </div>
+                <div class="right-about">
+                    <div class="myprofileimage">
+                        <img style="width: 400px;" src="./images/kelompok.jpg" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            window.onclick = function (event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://kit.fontawesome.com/bd05d911bb.js" crossorigin="anonymous"></script>
+        <script>
+            var typeData = new Typed(".role", {
+                strings: [
+                    "Front-End-Developer",
+                    "UI-UX Designer",
+                    "Coder",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 80,
+                backDelay: 1000,
+            });
+        </script>
+</body>
+
+</html>
