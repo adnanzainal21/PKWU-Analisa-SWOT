@@ -9,4 +9,4 @@
   - Wisnu Saputra
 
 ## Teacher By 
-= Ambar Yuliana, S.Pd
+ Ambar Yuliana, S.Pd
